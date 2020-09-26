@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Let"'"s Eat!</string>
+
+    <string name="forgotPW"><u>Forgot your password?</u></string>
+
+    //Main Activity
+    <string name="title">FIND FOOD</string>
+    <string name="registerBtn">Register</string>
+    <string name="loginBtn">Login</string>
+
+    //Login Activity
+    <string name="email">Email</string>
+    <string name="newUser">New user? Register here</string>
+    <string name="password">Password</string>
+    <string name="verifyemailnotice">Please verify your email account!</string>
+
+    //Register Activtiy
+    <string name="username">Username</string>
+    <string name="newPW">New Password</string>
+    <string name="cfmPW">Confirm Password</string>
+    <string name="fillInDetails">Please fill in the following to create an account:</string>
+    <string name="existingUser">Already have an account? Login</string>
+    <string name="createBtn">Create</string>
+    <string name="pwRequirements">Password should have alphanumeric and special characters, digits, upper and lower cases and at least 6 characters
+</string>
+    <string name="verifyEmailNotice">Please verify your email account before proceeding.</string>
+
+    //Drawer navigation
+    <string name="favourites">Favourites</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="foodPlace">Food Places</string>
+    <string name="logout">Logout</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="title_activity_restaurant_list">RestaurantListActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+
+
+    //restaurant_listview
+    <string name="default_rating">0.0</string>
+    <string name="default_restaurant_name">Restaurant Name</string>
+
+</resources>

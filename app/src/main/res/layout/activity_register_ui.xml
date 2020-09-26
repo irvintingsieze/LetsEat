@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Boundary.RegisterUI">
+
+
+
+    <ImageView
+        android:id="@+id/foodIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/letseatlogo"
+        android:layout_marginTop="10dp"
+        android:layout_centerHorizontal="true"
+        tools:ignore="ContentDescription"
+        />
+    <TextView
+        android:id="@+id/longTextCreateAcc"
+        android:layout_below="@+id/foodIcon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fillInDetails"
+        android:layout_marginHorizontal="50dp"
+        />
+
+    <TextView
+        android:id="@+id/longTextpwReq"
+        android:layout_below="@+id/longTextCreateAcc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pwRequirements"
+        android:layout_marginHorizontal="50dp"
+        />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/longTextpwReq"
+        android:layout_marginHorizontal="50dp"
+        android:id="@+id/layoutUsername"
+        >
+        <EditText
+            android:id="@+id/usernameET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="50"
+            android:hint="Username"
+            android:inputType="textPersonName"
+            android:singleLine="true"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/layoutUsername"
+        android:id="@+id/layoutEmail"
+        android:layout_marginHorizontal="50dp"
+        >
+        <EditText
+            android:id="@+id/emailET"
+            android:maxLength="50"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/layoutEmail"
+        android:id="@+id/layoutPW"
+        android:layout_marginHorizontal="50dp"
+        >
+        <EditText
+            android:id="@+id/passwordET"
+            android:maxLength="50"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:inputType="textPassword"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/layoutPW"
+        android:id="@+id/layoutCfmPW"
+        android:layout_marginHorizontal="50dp"
+        >
+        <EditText
+            android:id="@+id/cfmPasswordET"
+            android:maxLength="50"
+            android:singleLine="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layoutCfmPW"
+        android:id="@+id/registerBtn"
+        android:text="@string/createBtn"
+        android:textSize="30sp"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="50dp"
+        android:background="@drawable/buttons_main"
+        android:shadowColor="#FF0000"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/haveAccountTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/existingUser"
+        android:textAlignment="center"
+        android:layout_below="@+id/registerBtn"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FF0000"
+        />
+
+
+
+</RelativeLayout>
