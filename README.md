@@ -17,3 +17,5 @@ The application also allows the user to open google maps to navigate to food pla
 The user can be used to favourite food places of interest for future references.
 
 The user also have a profile page which allows him/her to change name, profile picture and password.
+
+Application video: https://youtu.be/MylYJkPwYMQ
