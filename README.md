@@ -19,3 +19,5 @@ The user can be used to favourite food places of interest for future references.
 The user also have a profile page which allows him/her to change name, profile picture and password.
 
 Application video: https://youtu.be/MylYJkPwYMQ
+
+Only main functionalities are explored in the video. Other functionalities such as setting profile picture / cover image / reset password are better explored if you can download this application and run it on your devices. Have fun!
