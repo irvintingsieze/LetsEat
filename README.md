@@ -1,6 +1,6 @@
 # LetsEat
 
-
+Created with Android Studio and Firebase
 
 The application involves user registration and login using Firebase authentication.
 
